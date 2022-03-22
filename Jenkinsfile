@@ -22,14 +22,15 @@ pipeline {
       }
     }
     
-       stage('Build') {
+      stage('Build') {
       steps{
         
         bat ''' cmd
           mvn -Dmaven.test.failure.ignore=true install
           mvn clean test -Dinclude=${RUNNER_JAVA_FILE}
           mvn clean install -DskipTests
-        
-      }
-    }
-  }
+        '''
+          }
+                  }
+}
+}
