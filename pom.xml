@@ -69,7 +69,7 @@
 	<includes>
 	    <include>$(RUNNER_JAVA_FILE)</include>
 	</includes>
-		<argLine>-Xmx512m</argline>	
+		<argline>-Xmx512m</argline>	
 	</configuration>
 	</plugin>
 	
