@@ -1,6 +1,6 @@
-package StepDefn;
+package com.automation.StepDefn;
 
-import Actions.ReactTest;
+import com.automation.Actions.*;
 import cucumber.api.java.After;
 import cucumber.api.java.en.*;
 

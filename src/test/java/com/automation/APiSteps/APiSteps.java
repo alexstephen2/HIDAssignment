@@ -1,6 +1,6 @@
-package APiSteps;
+package com.automation.APiSteps;
 
-import Actions.ReactTest;
+import com.automation.Actions.*;
 import cucumber.api.java.en.*;
 
 public class APiSteps {

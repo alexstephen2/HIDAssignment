@@ -1,4 +1,4 @@
-package Utils;
+package com.automation.Utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

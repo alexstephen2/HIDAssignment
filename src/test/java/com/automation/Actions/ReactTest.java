@@ -1,4 +1,4 @@
-package Actions;
+package com.automation.Actions;
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
@@ -19,7 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-import Utils.WebdriverFactory;
+import com.automation.Utils.*;
 import cucumber.api.java.After;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;

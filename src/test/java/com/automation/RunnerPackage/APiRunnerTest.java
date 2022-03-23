@@ -1,4 +1,4 @@
-package RunnerPackage;
+package com.automation.RunnerPackage;
 
 import org.junit.runner.RunWith;
 
@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/resources/Features/API.feature"
-		,glue={"APiSteps"}
+		,glue={"com.automation.APiSteps"}
 		,dryRun=false
 		,tags={"@coinmapget"}
 		)
