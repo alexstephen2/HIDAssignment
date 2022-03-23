@@ -287,9 +287,9 @@ public void APIFoodCategory() {
 	
 //	for(String Categoryval : allcatsucces)
 //	{
-		System.out.println("Name : "+allcatsucces);
+		System.out.println("\n\nFood Category Names : \n\n"+allcatsucces);
 		
-		System.out.println("Geo Location : "+geo);
+		System.out.println("\n\nGeo Location : \n\n"+geo);
 //		}
 		
 //	}
