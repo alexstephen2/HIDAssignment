@@ -14,5 +14,5 @@ import cucumber.api.junit.Cucumber;
 		,tags={"@coinmapget"}
 		)
 
-public class APiRunner {
+public class APiRunnerTest {
 }
